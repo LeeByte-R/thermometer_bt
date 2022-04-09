@@ -14,8 +14,6 @@ typedef struct
   volatile unsigned int back;
 } queue;
 
-#include "queue.h"
-
 void queue_push(queue *q, uint8_t x);
 
 int queue_pop(queue *q);
